@@ -1,0 +1,21 @@
+/*global*/
+
+body{
+    font-family: arial;
+}
+
+/*main*/
+
+.results-zone{
+    background-color: #dedede;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+#result{
+    font-size: 50px;
+}
+#total{
+    font-size: 50px;
+}

@@ -21,6 +21,9 @@ var views="upticking number";
 var postedDate="changes daily with date";
 var thumbsUp="upticking thumbs up/down buttons";
 
+let clientName="John";
+let isActive=true;
+let credit=1000; //they do not change
 
 document.write(
     `
