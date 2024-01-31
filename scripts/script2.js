@@ -5,6 +5,9 @@ let counter = 0;
 function increase(){
     counter++;
     console.log(counter);
+    if (counter==5){
+        console.log("Yippy");
+    }
 }
 
 function decrease(){
@@ -49,7 +52,7 @@ function addTwoNumbers(){
     document.getElementById("total").innerHTML=result;
 }
 
-// From a prompt convert Celsius to Fahrenheit
+// From a prompt convert Celsius to Fahrenheit (Old version)
     //1. create function name and section
 function convertC2F(){
     //2. create button in html (will reuse results section in html)
@@ -62,3 +65,27 @@ function convertC2F(){
     //5. display the converted temperature under Results in HTML
     document.getElementById("total").innerHTML=result;
 }
+
+// Loops
+    //for(starting_value; stopping_value; interval)
+    //for(let i=0; i<11; i++);
+//     for(let i=0; i<4; i++){
+//     document.write("My for is working")
+// }
+
+// this will number up to 10
+//     for(let i=1; i<=10; i++){
+//         document.write(`<p>${i}</p>`)
+//     }
+// // this will number up to 20 evenly. Starting with 2.
+//     for(let i=2; i<21; i+2){
+//         document.write(`<p>${i}</p>`)
+//     }
+// // use a loop to build the table of 2, from 1 to 100
+// const numTwo=2;
+// let result=0;
+// for(let i=1; i<11; i++){
+//     result=numTwo * i;
+//     document.write(`<p> ${numTwo} X ${i} = ${result}</p>`)
+// }
+
